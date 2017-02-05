@@ -28,22 +28,25 @@
       "intent": "AMAZON.CancelIntent"
     },
     {
-      "intent": "BeginIntent"
+      "intent": "StretchIntent"
     },
     {
-      "intent": "OpenDoorOneIntent"
+      "intent": "TwoIntent"
     },
     {
-      "intent": "OpenDoorTwoIntent"
+      "intent": "FiveIntent"
     },
     {
-      "intent": "OpenDoorThreeIntent"
+      "intent": "SevenIntent"
     },
     {
-      "intent": "OpenDoorFourIntent"
+      "intent": "TenIntent"
     },
     {
-      "intent": "OpenDoorFiveIntent"
+      "intent": "WarmUpIntent"
+    },
+    {
+      "intent": "WorkOutIntent"
     }
   ]
 }

@@ -1,28 +1,29 @@
 [
   {
     "id": 0,
-    "color": "default",
+    "color": "green",
     "isHidden": false,
     "readPreviousOptions": false,
     "card": {
-      "title": "Welcome",
-      "text": "Welcome to my Alexa Skill. To learn how to use this skill, say \"Help\".",
-      "prompt": "",
+      "title": "Stretch",
+      "text": "Hi there! You should stretch and warm up before beginning any exercises.",
+      "prompt": "Ready?",
       "image": {
         "largeImageUrl": null,
         "smallImageUrl": null
       }
     },
     "voice": {
-      "intro": "Welcome to my Alexa Skill. To learn how to use this skill, say \"Help\".",
-      "prompt": "When you are ready, say \"Begin\"."
+      "intro": "Hi there! Let's stretch before beginning our exercises…",
+      "prompt": "Ready?"
     },
     "options": [
       {
+        "sceneId": 2,
         "utterances": [
-          "begin"
-        ],
-        "sceneId": 1
+          "stretch",
+          "yes"
+        ]
       }
     ]
   },
@@ -30,10 +31,11 @@
     "id": 1,
     "color": "default",
     "isHidden": false,
+    "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Welcome",
-      "text": "You enter a room with three doors each with a distinct number on it. Which door would you like to open?",
+      "title": "How long?",
+      "text": "You enter a room.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -41,64 +43,45 @@
       }
     },
     "voice": {
-      "intro": "You enter a room with three doors, each with a distinct number on it. Which door would you like to open?",
+      "intro": "How many minutes do you want to work out?",
       "prompt": ""
     },
     "options": [
       {
+        "sceneId": 4,
         "utterances": [
-          "open door 1"
-        ],
-        "sceneId": 2
+          "two"
+        ]
       },
       {
+        "sceneId": 5,
         "utterances": [
-          "open door 2"
-        ],
-        "sceneId": 3
+          "five"
+        ]
       },
       {
+        "sceneId": 6,
         "utterances": [
-          "open door 3"
-        ],
-        "sceneId": 4
+          "seven"
+        ]
       },
       {
+        "sceneId": 7,
         "utterances": [
-          "open door 4"
-        ],
-        "sceneId": 5
+          "ten"
+        ]
       }
     ]
   },
   {
     "id": 2,
-    "color": "red",
+    "color": "default",
     "isHidden": false,
+    "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "You lose",
-      "text": "Better luck next time.",
-      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\"",
-      "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
-      }
-    },
-    "voice": {
-      "intro": "You lose. Better luck next time.",
-      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\""
-    },
-    "options": []
-  },
-  {
-    "id": 3,
-    "color": "yellow",
-    "isHidden": false,
-    "readPreviousOptions": true,
-    "card": {
-      "title": "Locked Door",
-      "text": "This door is locked.",
+      "title": "Stretch routine",
+      "text": "OK, we'll begin with a neck roll for fifteen seconds.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -106,39 +89,76 @@
       }
     },
     "voice": {
-      "intro": "This door is locked. Maybe you should try one of the other doors.",
-      "prompt": ""
+      "intro": "OK, we'll begin with a neck roll for fifteen seconds. Starting now.",
+      "prompt": "Perfect! Say warm up to start our warm up."
     },
-    "options": []
+    "options": [
+      {
+        "sceneId": 3,
+        "utterances": [
+          "warm up"
+        ]
+      }
+    ]
   },
   {
-    "id": 4,
-    "color": "green",
+    "id": 3,
+    "color": "default",
     "isHidden": false,
+    "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "You win",
-      "text": "Congratulations, you've beat my skill!",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "title": "warming up",
+      "text": "You enter a room.",
+      "prompt": "",
       "image": {
         "largeImageUrl": null,
         "smallImageUrl": null
       }
     },
     "voice": {
-      "intro": "Congratulations, you've beat my skill!",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\""
+      "intro": "Let's do some jumping jacks.",
+      "prompt": "Great job! Say work out to start working out."
+    },
+    "options": [
+      {
+        "sceneId": 1,
+        "utterances": [
+          "work out"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Done",
+      "text": "Great job! Say stop to finish.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Starting a two minute workout.",
+      "prompt": "Great job! Say stop to finish."
     },
     "options": []
   },
   {
     "id": 5,
     "color": "default",
-    "isHidden": true,
+    "isHidden": false,
+    "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Secret Room",
-      "text": "Congratulations, you've found a secret room. You look around and see a single door with a star on it.",
+      "title": "Don",
+      "text": "Great job! Say stop to finish.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -146,17 +166,10 @@
       }
     },
     "voice": {
-      "intro": "Congratulations, you've found a secret room. You look around and see a single door with a star on it.",
-      "prompt": ""
+      "intro": "Starting a five minute workout.",
+      "prompt": "Great job! Say stop to finish."
     },
-    "options": [
-      {
-        "sceneId": 6,
-        "utterances": [
-          "open door 5"
-        ]
-      }
-    ]
+    "options": []
   },
   {
     "id": 6,
@@ -165,17 +178,38 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Room",
-      "text": "You win!",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "title": "Done",
+      "text": "Great job! Say stop to finish.",
+      "prompt": "",
       "image": {
         "largeImageUrl": null,
         "smallImageUrl": null
       }
     },
     "voice": {
-      "intro": "You win!",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\""
+      "intro": "Starting a seven minute workout.",
+      "prompt": "Great job! Say stop to finish."
+    },
+    "options": []
+  },
+  {
+    "id": 7,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Done",
+      "text": "Great job! Say stop to finish.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Starting a ten minute workout.",
+      "prompt": "Great job! Say stop to finish."
     },
     "options": []
   }

@@ -2,10 +2,10 @@ var processUtterance = require('./processUtterance')
 
 module.exports = {
 	"ResetStateIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "reset skill" )
+		processUtterance( intent, session, request, response, "start over" )
 	},
 	"RestoreStateIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "resume skill" )
+		processUtterance( intent, session, request, response, "resume" )
 	},
 	"RepeatOptionsIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "repeat options" )
@@ -25,22 +25,25 @@ module.exports = {
 	"AMAZON.CancelIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "exit skill" )
 	},
-	"BeginIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "begin" )
+	"StretchIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "stretch" )
 	},
-	"OpenDoorOneIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 1" )
+	"TwoIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "two" )
 	},
-	"OpenDoorTwoIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 2" )
+	"FiveIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "five" )
 	},
-	"OpenDoorThreeIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 3" )
+	"SevenIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "seven" )
 	},
-	"OpenDoorFourIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 4" )
+	"TenIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "ten" )
 	},
-	"OpenDoorFiveIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 5" )
+	"WarmUpIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "warm up" )
+	},
+	"WorkOutIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "work out" )
 	},
 }

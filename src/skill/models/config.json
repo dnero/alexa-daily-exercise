@@ -7,12 +7,11 @@
   "dynamoRegion": "us-east-1",
   "commands": {
     "ResetStateIntent": [
-      "reset skill",
+      "start over",
       "start again",
       "reset"
     ],
     "RestoreStateIntent": [
-      "resume skill",
       "resume"
     ],
     "RepeatOptionsIntent": [
@@ -29,10 +28,14 @@
       "help"
     ],
     "AMAZON.StopIntent": [
-      "exit skill"
+      "exit skill",
+      "stop",
+      "cancel"
     ],
     "AMAZON.CancelIntent": [
-      "exit skill"
+      "exit skill",
+      "stop",
+      "cancel"
     ]
   },
   "responses": {
