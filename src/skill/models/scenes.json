@@ -37,7 +37,7 @@
     "readPreviousOptions": false,
     "card": {
       "title": "How long?",
-      "text": "You enter a room.",
+      "text": "How long would you like to exercise?",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -116,7 +116,7 @@
     "readPreviousOptions": false,
     "card": {
       "title": "warming up",
-      "text": "You enter a room.",
+      "text": "Let's do 30 seconds of jumping-jacks.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -124,7 +124,7 @@
       }
     },
     "voice": {
-      "intro": "Let's do some jumping-jacks.",
+      "intro": "Let's do thirty seconds of jumping-jacks. Starting now... <break time=\"10s\"/>\nTwenty <break time=\"10s\"/> \nTen <break time=\"8s\"/>\nTwo... One...",
       "prompt": "Great job! Say \"exercise\" when you're ready to start."
     },
     "options": [
