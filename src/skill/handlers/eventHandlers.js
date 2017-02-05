@@ -15,19 +15,19 @@ var eventHandlers = {
 
   onLaunch: function ( request, session, response ) {
 
-    dynamo.getUserState( session, function ( data ) {
-      if ( data.item && data.item.breadcrumbs.length ) {
-        Object.assign( session.attributes, data.item )
-        session.attributes.isAskingToRestoreState = true
-        var scene = utils.findResponseByType('askToRestoreState')
-        respond.readSceneWithCard( scene, session, response )
-      }
-      else {
+    // dynamo.getUserState( session, function ( data ) {
+    //   if ( data.item && data.item.breadcrumbs.length ) {
+    //     Object.assign( session.attributes, data.item )
+    //     session.attributes.isAskingToRestoreState = true
+    //     var scene = utils.findResponseByType('askToRestoreState')
+    //     respond.readSceneWithCard( scene, session, response )
+    //   }
+    //   else {
         // no previous game
         request.intent = { name: "LaunchIntent", slots: {} }
         eventHandlers.onIntent( request, session, response )
-      }
-    })
+    //   }
+    // })
 
   },
 

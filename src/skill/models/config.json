@@ -29,12 +29,13 @@
     ],
     "AMAZON.StopIntent": [
       "exit skill",
+      "exit",
       "stop",
-      "cancel"
+      "i'm done",
+      "end workout",
+      "end exercise"
     ],
     "AMAZON.CancelIntent": [
-      "exit skill",
-      "stop",
       "cancel"
     ]
   },

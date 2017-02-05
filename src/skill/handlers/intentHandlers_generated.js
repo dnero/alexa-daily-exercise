@@ -23,7 +23,7 @@ module.exports = {
 		processUtterance( intent, session, request, response, "exit skill" )
 	},
 	"AMAZON.CancelIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "exit skill" )
+		processUtterance( intent, session, request, response, "cancel" )
 	},
 	"YesstretchIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "yesstretch" )
@@ -43,7 +43,7 @@ module.exports = {
 	"YeswarmupIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "yeswarmup" )
 	},
-	"YesworkoutIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "yesworkout" )
+	"ExerciseIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "exercise" )
 	},
 }

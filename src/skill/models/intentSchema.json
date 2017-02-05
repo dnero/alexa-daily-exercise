@@ -46,7 +46,7 @@
       "intent": "YeswarmupIntent"
     },
     {
-      "intent": "YesworkoutIntent"
+      "intent": "ExerciseIntent"
     }
   ]
 }

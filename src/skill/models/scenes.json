@@ -23,7 +23,8 @@
         "utterances": [
           "yesstretch",
           "yes",
-          "stretch"
+          "stretch",
+          "ready"
         ]
       }
     ]
@@ -44,7 +45,7 @@
       }
     },
     "voice": {
-      "intro": "How many minutes do you want to work out?",
+      "intro": "How many minutes do you want to exercise?",
       "prompt": ""
     },
     "options": [
@@ -91,7 +92,7 @@
     },
     "voice": {
       "intro": "OK, we'll begin with a neck roll for fifteen seconds. Starting now.",
-      "prompt": "Perfect! Say warm up to start our warm up."
+      "prompt": "Loosened up? Next we'll do a little warm-up. I'd join you but I don't have arms and legs... Yet. Say \"warm up\" to begin."
     },
     "options": [
       {
@@ -99,6 +100,8 @@
         "utterances": [
           "yeswarmup",
           "yes",
+          "ok",
+          "i'm ready",
           "warm up"
         ]
       }
@@ -120,14 +123,14 @@
       }
     },
     "voice": {
-      "intro": "Let's do some jumping jacks.",
-      "prompt": "Great job! Say work out to start working out."
+      "intro": "Let's do some jumping-jacks.",
+      "prompt": "Great job! Say \"exercise\" when you're ready to start."
     },
     "options": [
       {
         "sceneId": 1,
         "utterances": [
-          "yesworkout",
+          "exercise",
           "work out",
           "yes"
         ]

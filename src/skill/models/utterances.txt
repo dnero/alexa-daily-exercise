@@ -13,21 +13,25 @@ RepeatSceneIntent repeat
 GoBackIntent go back
 AMAZON.HelpIntent help
 AMAZON.StopIntent exit skill
+AMAZON.StopIntent exit
 AMAZON.StopIntent stop
-AMAZON.StopIntent cancel
-AMAZON.CancelIntent exit skill
-AMAZON.CancelIntent stop
+AMAZON.StopIntent i'm done
+AMAZON.StopIntent end workout
+AMAZON.StopIntent end exercise
 AMAZON.CancelIntent cancel
 YesstretchIntent yesstretch
 YesstretchIntent yes
 YesstretchIntent stretch
+YesstretchIntent ready
 TwoIntent two
 FiveIntent five
 SevenIntent seven
 TenIntent ten
 YeswarmupIntent yeswarmup
 YeswarmupIntent yes
+YeswarmupIntent ok
+YeswarmupIntent i'm ready
 YeswarmupIntent warm up
-YesworkoutIntent yesworkout
-YesworkoutIntent work out
-YesworkoutIntent yes
+ExerciseIntent exercise
+ExerciseIntent work out
+ExerciseIntent yes
