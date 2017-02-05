@@ -52,25 +52,29 @@
       {
         "sceneId": 4,
         "utterances": [
-          "two"
+          "two",
+          "two minutes"
         ]
       },
       {
         "sceneId": 5,
         "utterances": [
-          "five"
+          "five",
+          "five minutes"
         ]
       },
       {
         "sceneId": 6,
         "utterances": [
-          "seven"
+          "seven",
+          "seven minutes"
         ]
       },
       {
         "sceneId": 7,
         "utterances": [
-          "ten"
+          "ten",
+          "ten minutes"
         ]
       }
     ]
@@ -154,8 +158,8 @@
       }
     },
     "voice": {
-      "intro": "Starting a two minute workout.",
-      "prompt": "Great job! Say stop to finish."
+      "intro": "OK, let’s start our two minute exercise now, including push-ups and sit-ups... I’ll set a timer and let you know when to rest. Carefully do as many of each exercise as you can until I count down to zero. Always remember to stop and take a break if you need to.\n\nStarting in three, two, one. Go!\n<break time=\"10s\"/>\n<break time=\"8s\"/>\nTwo... One... Done!\n\nNow for some sit-ups. Starting in three, two, one, Go!\n<break time=\"10s\"/>\n<break time=\"8s\"/>\nTwo... One... Done!\n\nSecond set of push-ups. Starting in three, two, one, Go!\n<break time=\"10s\"/>\n<break time=\"8s\"/>\nTwo... One... Done!\n\nSecond set of sit-ups\nStarting in three, two, one, Go!\n<break time=\"10s\"/>\n<break time=\"8s\"/>\nTwo... One... Done!",
+      "prompt": "Great job! Be sure to grab a drink of water and cool down. I’ll see you again tomorrow! Say stop to finish."
     },
     "options": []
   },
@@ -167,7 +171,7 @@
     "readPreviousOptions": false,
     "card": {
       "title": "Done",
-      "text": "Great job! Say stop to finish.",
+      "text": "Great job! Be sure to grab a drink of water and cool down. I’ll see you again tomorrow! Say stop to finish.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -188,7 +192,7 @@
     "readPreviousOptions": false,
     "card": {
       "title": "Done",
-      "text": "Great job! Say stop to finish.",
+      "text": "Great job! Be sure to grab a drink of water and cool down. I’ll see you again tomorrow! Say stop to finish.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -209,7 +213,7 @@
     "readPreviousOptions": false,
     "card": {
       "title": "Done",
-      "text": "Great job! Say stop to finish.",
+      "text": "Great job! Be sure to grab a drink of water and cool down. I’ll see you again tomorrow! Say stop to finish.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,

@@ -24,9 +24,13 @@ YesstretchIntent yes
 YesstretchIntent stretch
 YesstretchIntent ready
 TwoIntent two
+TwoIntent two minutes
 FiveIntent five
+FiveIntent five minutes
 SevenIntent seven
+SevenIntent seven minutes
 TenIntent ten
+TenIntent ten minutes
 YeswarmupIntent yeswarmup
 YeswarmupIntent yes
 YeswarmupIntent ok
