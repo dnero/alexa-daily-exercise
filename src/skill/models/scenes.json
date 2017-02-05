@@ -21,8 +21,9 @@
       {
         "sceneId": 2,
         "utterances": [
-          "stretch",
-          "yes"
+          "yesstretch",
+          "yes",
+          "stretch"
         ]
       }
     ]
@@ -96,6 +97,8 @@
       {
         "sceneId": 3,
         "utterances": [
+          "yeswarmup",
+          "yes",
           "warm up"
         ]
       }
@@ -124,7 +127,9 @@
       {
         "sceneId": 1,
         "utterances": [
-          "work out"
+          "yesworkout",
+          "work out",
+          "yes"
         ]
       }
     ]
@@ -157,7 +162,7 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Don",
+      "title": "Done",
       "text": "Great job! Say stop to finish.",
       "prompt": "",
       "image": {

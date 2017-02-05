@@ -28,7 +28,7 @@
       "intent": "AMAZON.CancelIntent"
     },
     {
-      "intent": "StretchIntent"
+      "intent": "YesstretchIntent"
     },
     {
       "intent": "TwoIntent"
@@ -43,10 +43,10 @@
       "intent": "TenIntent"
     },
     {
-      "intent": "WarmUpIntent"
+      "intent": "YeswarmupIntent"
     },
     {
-      "intent": "WorkOutIntent"
+      "intent": "YesworkoutIntent"
     }
   ]
 }

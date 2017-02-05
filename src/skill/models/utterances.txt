@@ -18,11 +18,16 @@ AMAZON.StopIntent cancel
 AMAZON.CancelIntent exit skill
 AMAZON.CancelIntent stop
 AMAZON.CancelIntent cancel
-StretchIntent stretch
-StretchIntent yes
+YesstretchIntent yesstretch
+YesstretchIntent yes
+YesstretchIntent stretch
 TwoIntent two
 FiveIntent five
 SevenIntent seven
 TenIntent ten
-WarmUpIntent warm up
-WorkOutIntent work out
+YeswarmupIntent yeswarmup
+YeswarmupIntent yes
+YeswarmupIntent warm up
+YesworkoutIntent yesworkout
+YesworkoutIntent work out
+YesworkoutIntent yes
