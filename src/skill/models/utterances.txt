@@ -32,6 +32,7 @@ YeswarmupIntent yes
 YeswarmupIntent ok
 YeswarmupIntent i'm ready
 YeswarmupIntent warm up
+YeswarmupIntent let's go
 ExerciseIntent exercise
 ExerciseIntent work out
 ExerciseIntent yes
